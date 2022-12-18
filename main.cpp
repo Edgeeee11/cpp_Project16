@@ -11,9 +11,9 @@ main()
 	printf("m=");
 	scanf("%i", &m);
 	
-	 for (int i=0; j<n; j++)
+	 for (int j=0; j<n; j++)
     {
-        for(int j=0; i<m; i++)
+        for(int i=0; i<m; i++)
         {
             scanf("%i",&mas[i][j]);
         }
@@ -21,9 +21,9 @@ main()
 
     printf("\nNachaly massiv\n\n");
 
-    for (int i=0; j<n; j++)
+    for (int j=0; j<n; j++)
     {
-        for(int j=0; i<m; i++)
+        for(int i=0; i<m; i++)
         {
             printf("%3i",mas[i][j]);
         }
